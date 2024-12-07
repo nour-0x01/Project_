@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; 
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../imgs/breaking-bad.jpg);
+  background-size: cover;
+}
+
+.login-container {
+  background-color: transparent; 
+  padding: 30px 40px;
+  border-radius: 15px; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+  backdrop-filter: blur(15px);
+}
+
+.login-container h1 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 34px;
+}
+
+.login-container h1 span {
+  color: #FFD700; 
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #fcfbfb;
+  background-color: transparent;
+  border:2px solid #FFD700;
+  transition: 0.3s;
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+  transition: 0.3s;
+}
+
+input:focus::placeholder {
+  opacity: 0.2;
+}
+
+input:focus {
+  transform: translateY(-5px);
+  border:2px solid #FFF;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFC300;
+  color: #fff;
+  box-shadow: 0 6px 12px rgb(0 0 0 / .6);
+  transform: translateY(-5px);
+}
+
+.links a {
+  display: inline-block;
+  color: #f0ecec;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: #FFC300; 
+  transform: translateY(-3px);
+}
+
+.links p {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #FFD700;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  transition: transform 0.3s, color 0.3s;
+}
