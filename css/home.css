@@ -547,6 +547,9 @@ header .exit:hover {
   -moz-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
+  box-shadow: 0 0 10000px #ffffff7b;
+  /* box-shadow: 0 5px 25px #ffffff7b; */
+  /* box-shadow: 0 0 10000px 1000px #ffffff7b; */
 }
 
 .w-to-w .box .img-holder {
@@ -705,9 +708,9 @@ header .exit:hover {
 }
 
 .contact .content-form form input[type="submit"] {
-  color: gray;
+  color: #fff;
   background-color: var(--gold-color);
-  font-weight: 900;
+  font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
   padding: 15px;
@@ -727,12 +730,11 @@ header .exit:hover {
 }
 
 .contact .content-form form input[type="submit"]:hover {
-  box-shadow: 0 10px 10px #00000085;
-  transform: translateY(-5px);
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
+  transform: scale(.96);
+  -webkit-transform: scale(.96);
+  -moz-transform: scale(.96);
+  -ms-transform: scale(.96);
+  -o-transform: scale(.96);
 }
 
 .contact .content-form .info {
@@ -811,6 +813,7 @@ header .exit:hover {
   -moz-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   -o-transform: translateY(-3px);
+  text-shadow: 0 7px 3px #00000079;
 }
 
 .contact .follow .social i.insta:hover {
@@ -821,10 +824,6 @@ header .exit:hover {
   color: #4267B2;
 }
 
-.contact .follow .social i.twitter:hover {
-  color: #000;
-}
-
 .contact .follow .social i.linkedin:hover {
   color: #0077B5;
 }
@@ -833,7 +832,9 @@ header .exit:hover {
   color: #FF0000;
 }
 
-.contact .follow .social i.tiktok:hover {
+.contact .follow .social i.twitter:hover,
+.contact .follow .social i.tiktok:hover,
+.contact .follow .social i.github:hover {
   color: #000;
 }
 

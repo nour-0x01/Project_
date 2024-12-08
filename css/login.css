@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Cairo", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #1a1a1a; 
@@ -23,9 +23,13 @@ body {
 }
 
 .login-container h1 {
-  margin-bottom: 10px;
+  margin: 0;
   color: #fff;
   font-size: 34px;
+}
+
+.login-container p {
+  margin-top: 0;
 }
 
 .login-container h1 span {
@@ -68,7 +72,7 @@ input:focus {
   width: 100%;
   padding: 10px;
   background-color: #FFD700;
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -78,17 +82,18 @@ input:focus {
 }
 
 .btn:hover {
-  background-color: #FFC300;
-  color: #fff;
-  box-shadow: 0 6px 12px rgb(0 0 0 / .6);
-  transform: translateY(-5px);
+  transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -o-transform: scale(0.96);
 }
 
 .links a {
   display: inline-block;
   color: #f0ecec;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   transition: color 0.3s, transform 0.3s;
 }
 
@@ -99,8 +104,8 @@ input:focus {
 }
 
 .links p {
-  margin: 10px 0 0;
-  font-size: 14px;
+  margin: 0;
+  font-size: 15px;
 }
 
 .forgot-password {
