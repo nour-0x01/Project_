@@ -133,21 +133,22 @@ h1{
     position: absolute;
     right: 33px;
     top: 10px;
-    z-index: 1;
+    z-index: 10;
     color: #ffd900;
 }
 .gg label {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 40px;
+    left: 30px;
     background-color: #000;
     transition: .3s;
-    padding: 0 5px;
+    padding: 0 270px 0 5px;
 }
 .lol:focus + label {
     top: 0;
     font-size: 14px;
+    padding: 0 5px;
 }
 
 /* .focused {
