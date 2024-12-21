@@ -14,9 +14,9 @@
 body{
     align-items: center;
     /* background-color: black; */
-    background:url('wallpaperflare.com_wallpaper\ \(8\).jpg');
+    background:url('../imgs/signup.jpg');
+    background-size: cover;
     background-color: #000;
-    background-position: -930px;
 }
 .link-up{
     background-color: rgba(68, 68, 68, 0.4);
@@ -56,7 +56,8 @@ h1{
     color: white;
     width: 400px;
     border-radius: 10px;
-    background-color: #000;
+    background-color: #00000072;
+    backdrop-filter: blur(10px);
     margin: 100px auto 0;
     padding: 25px;
     text-align: center;
