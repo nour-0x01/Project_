@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .landing {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .landing video {
+            max-width: 100%;
+            position: relative;
+            z-index: -100;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: -200px auto 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            width: 96%;
+            display: inline-block;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"], input[type="number"], input[type="month"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ceb811;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+        .card-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .card-info input {
+            width: 48%;
+        }
+        .card-info .card-number {
+            width: 70%;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #fbd900;
+            border: none;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            border-radius: 5px;
+            cursor:cell;
+        }
+        .submit-btn:hover {
+            background-color: #c5c216;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <video src="imgs/spider.mp4" autoplay loop></video>
+    </div>
+    <div class="container">
+        <h1>payment using visa</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="card-number">card number</label>
+                <input type="number" id="card-number" placeholder="enter card number" required>
+            </div>
+
+            <div class="card-info">
+                <div class="form-group">
+                    <label for="expiry-date">completion date</label>
+                    <input type="month" id="expiry-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">(CVV)</label>
+                    <input type="number" id="cvv" placeholder="xxx" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="card-holder">your name</label>
+                <input type="text" id="card-holder" placeholder="your name on card" required>
+            </div>
+
+            <button type="submit" class="submit-btn">pay</button>
+        </form>
+    </div>
+</body>
+</html>

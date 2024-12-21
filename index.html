@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
+    <!-- Header and nav -->
+    <link rel="stylesheet" href="css/header.css">
     <!-- Font Awsome -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Organizing -->
@@ -19,14 +21,14 @@
     <title>Movies Web</title>
   </head>
   <body>
-    <!-- Start Nav -->
+    <!-- Start Nav & Header -->
     <header>
       <div class="search-box">
         <i class="fa-solid fa-xmark exit"></i>
         <input type="text" placeholder="Search" name="search" />
       </div>
       <div class="logo">
-        <a href="home.html">
+        <a href="index.html">
           <span>
             MOVIES
             <strong style="font-weight: normal">WEB</strong>
@@ -51,11 +53,11 @@
     </header>
     <ul class="nav">
       <li><a href="#" id="home">Home</a></li>
-      <li><a href="#">Series</a></li>
-      <li><a href="#">Moveis</a></li>
-      <li><a href="#">Plans</a></li>
+      <li><a href="series.html" target="_blank">Series</a></li>
+      <li><a href="movies.html" target="_blank">Moveis</a></li>
+      <li><a href="plans.html">Plans</a></li>
     </ul>
-    <!-- End Nav -->
+    <!-- End Nav & Header -->
     <!-- Start Landing -->
     <div class="landing">
       <div class="welcome">
@@ -125,7 +127,7 @@
       </div>
       <div class="container">
         <div class="arrow">
-          <a href="#" class="d-block">
+          <a href="series.html" class="d-block">
             <h3>Series</h3>
             <i class="fa-solid fa-angles-right"></i>
           </a>
@@ -236,7 +238,7 @@
           </div>
         </div>
         <div class="arrow">
-          <a href="#" class="d-block">
+          <a href="movies.html" class="d-block">
             <h3>Movies</h3>
             <i class="fa-solid fa-angles-right"></i>
           </a>
@@ -436,6 +438,6 @@
       <div>
     </div>
     <!-- End Footer -->
-    <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
   </body>
 </html>

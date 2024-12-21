@@ -1,0 +1,162 @@
+.profile{
+    color: #ffd900;
+    position: relative;
+    left: 680px;
+    width: 20px;
+}
+#f{
+    font-size: 20px;
+}
+#up{
+    position: relative;
+    top:3px ;
+}
+body{
+    align-items: center;
+    /* background-color: black; */
+    background:url('wallpaperflare.com_wallpaper\ \(8\).jpg');
+    background-color: #000;
+    background-position: -930px;
+}
+.link-up{
+    background-color: rgba(68, 68, 68, 0.4);
+    /* width: 130px; */
+}
+.movies{
+    color: rgb(255, 255, 255);
+    margin-left: 590px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.home{
+    text-transform: capitalize;
+    color: #ffd900;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+}
+.home:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-size: 36px;
+    position: relative;
+}
+
+.input{
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #000;
+    margin: 100px auto 0;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid white;
+}
+.gg{
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 6px;
+    position: relative;
+}
+.submit{
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.submit:hover{
+    background-color: #ffd900;
+    transform: scale(1.1);
+    box-shadow: 0 2px 3px rgb(0, 0, 0,0.2);
+    transition: 0.4s;
+}
+.submit:active{
+    background-color: rgb(207, 9, 9);
+    transform: scale(0.95);
+}
+
+.reminder{
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.text{
+    font-size: 16px;
+}
+.b{
+    color: #ffd900;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.b:hover{
+    transition: 0.3s;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+.b:visited{
+    color: blue;
+}
+::selection{
+    color: yellow;
+    background-color: brown;
+}
+.lol{ 
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.lol:focus {
+    outline: none;
+}
+.gg i {
+    position: absolute;
+    right: 33px;
+    top: 10px;
+    z-index: 1;
+    color: #ffd900;
+}
+.gg label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    background-color: #000;
+    transition: .3s;
+    padding: 0 5px;
+}
+.lol:focus + label {
+    top: 0;
+    font-size: 14px;
+}
+
+/* .focused {
+    opacity: 1;
+} */
+/* #a,#b,#c,#d {
+    display: inline-block;
+    color: #ffd900;
+    position: absolute;
+    right: 114px;
+}
+#a{
+    top: 170px;
+} */

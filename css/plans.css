@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(wallpaperflare.com_wallpaper.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    margin: 0px;
+    padding: 0 100px 100px;
+    /* letter-spacing: normal; */
+    /* word-spacing: normal; */
+    position: relative;
+    box-sizing: border-box;
+} 
+
+body::after { 
+pointer-events: none;
+content: "";
+width:100%;
+height: 100%;
+position: absolute;
+left:0 ;
+top:0;
+background-color:rgba(0, 0, 0, 0.885) ;
+/* background-attachment: fixed; */
+}
+
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.offer  { 
+    /* background-color: rgb(13, 20, 102); */
+    background-color: #222;
+    padding: 20px 20px 100px;
+    /* border: 5px #333 solid; */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(3, 2, 86, 0.5); 
+    text-align: center;
+    min-width: 30%; 
+    justify-content: center;
+    align-items: center;
+    /* margin: 100; */
+    vertical-align: baseline;
+    position: static;
+    z-index: 1;
+    transition:0.4s ease ;
+}
+.offer:hover{
+    transform: translateY(-10px);
+} 
+#poor{
+    color:#fff;
+
+}
+#rich{
+    color:black;
+    background: linear-gradient(
+        135deg,
+        #ffffb3 25%,
+        #ffffff 25% 45%,
+        #ffffb3 45% 70%,
+        #ffffff 70% 75%,
+        #ffffb3 75%
+        );  
+    position: relative;
+}
+/* .lim{
+    padding: 10px 10px;
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5%;
+    background-color: #d1d140;
+} */
+
+ul.card{
+    list-style-type:circle;
+    list-style-position:outside;
+    padding: 10px;
+}
+.offer h2 {
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* opacity: 1; */
+}
+
+.offer h2 + p {
+    font-size: 20px;
+}
+.offer .btn {
+    background-color: rgb(9, 119, 100);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px auto 0;
+    display: block;
+    width: fit-content;
+}
+
+.btn:hover {
+    transform: scale(1.1);  
+    box-shadow: 0 4px 8px rgba(74, 36, 36, 0.5);
+}
+h3.ll{
+    text-decoration: line-through; 
+}
+.card li {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.ll{
+    margin: 0%;
+}
+.circle{
+    font-size: 25px;
+    color:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #e63946;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    Z-index:2 ;
+}
