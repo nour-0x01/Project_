@@ -14,13 +14,15 @@
 body{
     align-items: center;
     /* background-color: black; */
-    background:url('../imgs/signup.jpg');
+    background:url('../imgs/signup2.jpg');
     background-size: cover;
     background-color: #000;
 }
 .link-up{
-    background-color: rgba(68, 68, 68, 0.4);
-    /* width: 130px; */
+    background-color: transparent;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
 }
 .movies{
     color: rgb(255, 255, 255);
@@ -56,8 +58,7 @@ h1{
     color: white;
     width: 400px;
     border-radius: 10px;
-    background-color: #00000072;
-    backdrop-filter: blur(10px);
+    background-color: #000;
     margin: 100px auto 0;
     padding: 25px;
     text-align: center;
